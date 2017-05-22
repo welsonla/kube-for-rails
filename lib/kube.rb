@@ -1,0 +1,3 @@
+class Kube
+
+end
