@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 	s.description = "Gem wrap of https://imperavi.com/kube/"
 	s.author      = ["welsonla"]
 	s.email       = "wyc.jar@gmail.com"
-	s.files       = ["lib/kube.rb"]
-	s.homepage    = "http://github.com/welsonla/kube-rails"
+	s.files       = Dir["{lib,vendor/**"]
+	s.homepage    = "https://github.com/welsonla/kube-for-rails"
 	s.license     = 'MIT'
 end
