@@ -1,5 +1,5 @@
 require "kube_for_rails/version"
-
+require "kube_for_rails/engine"
 module KubeForRails
-  # Your code goes here...
+
 end
