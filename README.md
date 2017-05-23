@@ -4,6 +4,17 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 
 TODO: Delete this and the text above, and describe your gem
 
+assets files
+
+vendor
+    └── assets
+        ├── css
+        │   └── kube.min.css
+        ├── js
+        │   └── kube.min.js
+        └── scss
+            └── kube.scss
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -22,7 +33,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+add this code to your application.css
+```
+ *= require kube.min
+```
 
 ## Development
 
